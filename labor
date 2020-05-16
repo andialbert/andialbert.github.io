@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+     <title>CSS Layout</title>
+     <link rel="stylesheet" type="text/css" href="main_css.css">
+   </head>
+   <body>
+     <header>
+        <nav>
+             <h1>Modern fizika laboratórium</h1>
+        </nav>
+     </header>
+     
+     <nav>
+         <h2 class='center'>
+            Helyszín és időpont:
+         </h2>
+         <p class='center'>kedden és szerdánként a változó helyszínen</p>
+         <p class='center2'>keddi időpont: 10:15-14:00</p>
+         <p class='center3'>szerdai időpont: 08:15-12:00</p>
+         
+     </nav>
+     
+       <nav>
+         <ul class="other">
+             <li><a href="index.html">Home</a></li>
+             <li><a href="http://wigner.elte.hu/koltai/labor/2020tav/">A labor eredeti honlapja</a></li>
+         </ul>
+         <img alt="" class="img-circle" src="elte.jpg">
+      </nav>
+      
+      <div class='this'>
+          <h3>
+            A tárgyfelelős üzenete:
+         </h3>
+         <p >A 'Fizika laboratórium 3' első megbeszéléseit a keddi csoportnak február 11-én, a szerdainak február 12-én, a -1.111 (Korecz-labor) teremben tartjuk (mindkét csoportnak 10:15-ös kezdéssel). Az első alkalommal a névsor egyeztetése, a labor bemutatása a témánk. Második alkalommal megtartjuk a baleset-, munka-, tűz- és sugárvédelmi előadásokat valamint egy rövid atomfizika és spektroszkópia összefoglalót. Ezeket aláírásukkal igazolják, aki nem jelenik meg, az nem mérhet. Az első mérésekre a 25-én illetve 26-án kerül sor.</p>
+
+<p>Itt is tájékoztatom a hallgatóságot, hogy a HKR-rel összhangban előírjuk, hogy a laborban legfeljebb 2 alkalommal lehet hiányozni, azonban az elmaradt méréseket mindenképpen pótolni kell! Aki ennél többször hiányzik, nem kaphat jegyet! Az elégséges feltétele 10 mérés elvégzése és 10 olyan jegyzőkönyv beadása, amiknek az értékelése nem elégtelen!</p>
+
+<p>Kérem, hogy ezeket terjesszék egymás között, és mindenki vegye fel a kapcsolatot velem, aki a labort ebben a félévben el akarja végezni (függőben levő kérelmek vagy neptunos jelentkezési problémák esetén is)!</p>
+
+<p>Üdvözlettel: Koltai János.</p>
+
+      <a href="http://wigner.elte.hu/koltai/labor/parts/modfizlab2020tav.pdf">A tájékoztató itt található</a>
+      <h3>
+         Példajegyzőkönyvek (amolyan elrettentő példa):
+         <ul >
+             <li><a href="molekula.pdf">Molekulamodellezés</a></li>
+             <li><a href="PET.pdf">PET (Pozitron Annihiláció vizsgálata)</a></li>
+             <li><a href="agp.pdf">Atomok gerjesztési potenciálja</a></li>
+             <li><a href="zeeman.pdf">Zeeman-effektus</a></li>
+         </ul>   
+         Példajegyzőköny (Python SlideShow):   
+         <ul>
+             <li><a href="agp.slides.html">SlideShow nézet</a></li>
+             <li><a href="agp.html">HTML nézet</a></li>
+         </ul>
+      </h3>
+      </div>
+
+      <footer>Modern fizika laboratórium</footer>
+   </body>
+</html>
