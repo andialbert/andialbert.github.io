@@ -1,0 +1,34 @@
+body{
+  background-color: darkCyan;
+  color: balck;
+  font-family: sans-serif;
+}
+
+h1,h2,h6,li {
+  color: maroon;
+}
+
+p {
+   padding: 20px 15px 10px 5px;
+   background-color: white;
+}
+
+.blue{
+   color: aqua;
+}
+
+#special{
+   background-color: salmon;
+}
+
+p:hover{
+   background-color: magenta;
+}
+
+p::first-letter{
+   color: black;
+}
+
+li{
+  color: darkRed;
+}

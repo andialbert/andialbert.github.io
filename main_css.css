@@ -1,0 +1,53 @@
+body{
+  background-color: blanchedAlmond;
+  color: darkRed;
+  margin:15px;
+} 
+
+header{
+  background-color: cadetBlue;
+  color: black; 
+  margin: 30px;
+  padding: 15px 15px 0px 15px;
+}
+
+header h1{
+   margin:40px;
+   display: inline-block;
+}
+
+nav ul{
+   margin:60px;
+   display: inline-block;
+   padding: 0px 0px 0px 15px;
+}
+
+nav ul li{
+  background-color: DarkGoldenRod;
+  color: white;
+  list-style-type:none;
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 15px;
+}
+
+nav ul li a{
+  color: white;
+}
+
+div.row{
+
+}
+
+div.col{
+  float:left;
+  background-color: MediumVioletRed;
+  color: white;
+  margin:1% ;
+  padding:1% ;
+  width:16% ;
+}
+
+footer{
+   clear:both;
+}
